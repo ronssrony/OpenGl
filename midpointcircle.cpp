@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 #include <GL/gl.h>
 #include <GL/glut.h>
 float x=0,y,x2,y2,r,p;
@@ -64,5 +64,5 @@ glutCreateWindow ("hello");
 init ();
 glutDisplayFunc(display);
 glutMainLoop();
-return 0; /* ISO C requires main to return int. */
+return 0; 
 }
